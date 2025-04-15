@@ -13,7 +13,7 @@ function App() {
     <ThemeProvider>
       <FontProvider>
         <TodoProvider>
-          <Router>
+          <Router basename="/">
             <div className="app">
               <Header />
               <main className="main-content">
